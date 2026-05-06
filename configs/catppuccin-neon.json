@@ -1,0 +1,134 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": [
+        {
+            "command": "copy",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "splitPane",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "newTab",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": "closeTab",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "alt+1"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "alt+2"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "alt+3"
+        },
+        {
+            "command": "previousTab",
+            "keys": "ctrl+shift+tab"
+        },
+        {
+            "command": "nextTab",
+            "keys": "ctrl+tab"
+        }
+    ],
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "JetBrainsMono Nerd Font Propo",
+                "size": 12
+            },
+            "cursorShape": "bar",
+            "cursorHeight": 30,
+            "padding": "14, 14, 14, 14",
+            "opacity": 85,
+            "useAcrylic": true
+        },
+        "list": [
+            {
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.12,
+                "backgroundImageStretchMode": "uniformToFill",
+                "colorScheme": "Catppuccin Neon",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "tabTitle": "PowerShell",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "colorScheme": "Catppuccin Neon",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt",
+                "tabTitle": "CMD",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell 7",
+                "source": "Windows.Terminal.PowershellCore",
+                "colorScheme": "Catppuccin Neon",
+                "tabTitle": "PowerShell 7",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144dd330d3}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "colorScheme": "Catppuccin Neon",
+                "startingDirectory": "~"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#1E1E2E",
+            "black": "#45475A",
+            "blue": "#82AAFF",
+            "brightBlack": "#585B70",
+            "brightBlue": "#82AAFF",
+            "brightCyan": "#89DDFF",
+            "brightGreen": "#A6FFCB",
+            "brightPurple": "#C792EA",
+            "brightRed": "#FF6B9D",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFE66D",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#89DDFF",
+            "foreground": "#E0E6FF",
+            "green": "#A6FFCB",
+            "name": "Catppuccin Neon",
+            "purple": "#C792EA",
+            "red": "#FF6B9D",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D9E0EE",
+            "yellow": "#FFE66D"
+        }
+    ],
+    "themes": []
+}

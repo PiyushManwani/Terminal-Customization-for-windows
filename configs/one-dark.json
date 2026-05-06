@@ -1,0 +1,60 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": [
+        {"command": "copy", "keys": "ctrl+c"},
+        {"command": "paste", "keys": "ctrl+v"},
+        {"command": "splitPane", "keys": "alt+shift+d"},
+        {"command": "newTab", "keys": "ctrl+shift+t"}
+    ],
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "JetBrainsMono Nerd Font Propo",
+                "size": 12
+            },
+            "cursorShape": "bar",
+            "padding": "14, 14, 14, 14",
+            "opacity": 85,
+            "useAcrylic": true,
+            "colorScheme": "One Dark"
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "One Dark",
+            "background": "#282C34",
+            "black": "#1E2127",
+            "blue": "#61AFEF",
+            "brightBlack": "#5C6370",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#D19A66",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#ABB2BF",
+            "green": "#98C379",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#3E4452",
+            "white": "#ABB2BF",
+            "yellow": "#D19A66"
+        }
+    ]
+}

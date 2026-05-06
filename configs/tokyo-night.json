@@ -1,0 +1,55 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": [
+        {"command": "copy", "keys": "ctrl+c"},
+        {"command": "paste", "keys": "ctrl+v"},
+        {"command": "splitPane", "keys": "alt+shift+d"},
+        {"command": "newTab", "keys": "ctrl+shift+t"}
+    ],
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "JetBrainsMono Nerd Font Propo",
+                "size": 12
+            },
+            "cursorShape": "bar",
+            "padding": "14, 14, 14, 14",
+            "opacity": 85,
+            "useAcrylic": true,
+            "colorScheme": "Tokyo Night"
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Tokyo Night",
+            "background": "#1A1B26",
+            "black": "#32344A",
+            "blue": "#7AA2F7",
+            "brightBlack": "#565F89",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#3B3F54",
+            "white": "#C0CAF5",
+            "yellow": "#E0AF68"
+        }
+    ]
+}

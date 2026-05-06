@@ -1,0 +1,55 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": [
+        {"command": "copy", "keys": "ctrl+c"},
+        {"command": "paste", "keys": "ctrl+v"},
+        {"command": "splitPane", "keys": "alt+shift+d"},
+        {"command": "newTab", "keys": "ctrl+shift+t"}
+    ],
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "JetBrainsMono Nerd Font Propo",
+                "size": 12
+            },
+            "cursorShape": "bar",
+            "padding": "14, 14, 14, 14",
+            "opacity": 85,
+            "useAcrylic": true,
+            "colorScheme": "Gruvbox"
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Gruvbox",
+            "background": "#282828",
+            "black": "#282828",
+            "blue": "#83A598",
+            "brightBlack": "#928374",
+            "brightBlue": "#83A598",
+            "brightCyan": "#8EC07C",
+            "brightGreen": "#B8BB26",
+            "brightPurple": "#D3869B",
+            "brightRed": "#FB4934",
+            "brightWhite": "#EBDBB2",
+            "brightYellow": "#FABD2F",
+            "cursorColor": "#EBDBB2",
+            "cyan": "#8EC07C",
+            "foreground": "#EBDBB2",
+            "green": "#B8BB26",
+            "purple": "#D3869B",
+            "red": "#CC241D",
+            "selectionBackground": "#928374",
+            "white": "#EBDBB2",
+            "yellow": "#D79921"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": [
+        {"command": "copy", "keys": "ctrl+c"},
+        {"command": "paste", "keys": "ctrl+v"}
+    ],
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "JetBrainsMono Nerd Font Propo",
+                "size": 12
+            },
+            "cursorShape": "bar",
+            "padding": "14, 14, 14, 14",
+            "opacity": 85,
+            "useAcrylic": true,
+            "colorScheme": "Monokai"
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Monokai",
+            "background": "#272822",
+            "black": "#3E3D32",
+            "blue": "#66D9EF",
+            "brightBlack": "#49483E",
+            "brightBlue": "#66D9EF",
+            "brightCyan": "#A1EFE4",
+            "brightGreen": "#A6E22E",
+            "brightPurple": "#AE81FF",
+            "brightRed": "#F92672",
+            "brightWhite": "#F8F8F2",
+            "brightYellow": "#E6DB74",
+            "cursorColor": "#F8F8F2",
+            "cyan": "#A1EFE4",
+            "foreground": "#F8F8F2",
+            "green": "#A6E22E",
+            "purple": "#AE81FF",
+            "red": "#F92672",
+            "selectionBackground": "#49483E",
+            "white": "#F8F8F2",
+            "yellow": "#E6DB74"
+        }
+    ]
+}
