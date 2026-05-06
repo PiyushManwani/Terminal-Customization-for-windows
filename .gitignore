@@ -1,0 +1,43 @@
+# Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# PowerShell
+*.ps1~
+*.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups
+*.backup
+*.old
+*.tmp
+
+# Local settings
+local-settings.json
+secret-*.json
+
+# OS temp files
+~$*
+.AppleDouble
+.LSOverride
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+
+# Logs
+*.log
+logs/
