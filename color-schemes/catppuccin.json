@@ -1,0 +1,23 @@
+{
+    "name": "Catppuccin Neon",
+    "background": "#1E1E2E",
+    "black": "#45475A",
+    "blue": "#82AAFF",
+    "brightBlack": "#585B70",
+    "brightBlue": "#82AAFF",
+    "brightCyan": "#89DDFF",
+    "brightGreen": "#A6FFCB",
+    "brightPurple": "#C792EA",
+    "brightRed": "#FF6B9D",
+    "brightWhite": "#FFFFFF",
+    "brightYellow": "#FFE66D",
+    "cursorColor": "#FFFFFF",
+    "cyan": "#89DDFF",
+    "foreground": "#E0E6FF",
+    "green": "#A6FFCB",
+    "purple": "#C792EA",
+    "red": "#FF6B9D",
+    "selectionBackground": "#FFFFFF",
+    "white": "#D9E0EE",
+    "yellow": "#FFE66D"
+}
