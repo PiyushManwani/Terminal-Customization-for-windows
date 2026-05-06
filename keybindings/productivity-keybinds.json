@@ -1,0 +1,93 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "keybindings": [
+        {
+            "command": "copy",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "newTab",
+            "keys": "alt+t"
+        },
+        {
+            "command": "newTabProfile0",
+            "keys": "alt+shift+1"
+        },
+        {
+            "command": "newTabProfile1",
+            "keys": "alt+shift+2"
+        },
+        {
+            "command": "closeTab",
+            "keys": "alt+w"
+        },
+        {
+            "command": "splitPane",
+            "keys": "alt+d"
+        },
+        {
+            "command": "closePane",
+            "keys": "alt+q"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "alt+1"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "alt+2"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "alt+3"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "alt+4"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "alt+5"
+        },
+        {
+            "command": "nextTab",
+            "keys": "alt+right"
+        },
+        {
+            "command": "previousTab",
+            "keys": "alt+left"
+        },
+        {
+            "command": "moveFocusLeft",
+            "keys": "alt+h"
+        },
+        {
+            "command": "moveFocusRight",
+            "keys": "alt+l"
+        },
+        {
+            "command": "moveFocusUp",
+            "keys": "alt+k"
+        },
+        {
+            "command": "moveFocusDown",
+            "keys": "alt+j"
+        },
+        {
+            "command": "toggleFullscreen",
+            "keys": "f11"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+alt+f"
+        },
+        {
+            "command": "openSettings",
+            "keys": "ctrl+,"
+        }
+    ]
+}
