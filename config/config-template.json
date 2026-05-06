@@ -1,0 +1,84 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "JetBrainsMono Nerd Font Propo",
+                "size": 12
+            },
+            "cursorShape": "bar",
+            "cursorHeight": 30,
+            "padding": "14, 14, 14, 14",
+            "opacity": 85,
+            "useAcrylic": true
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "tabTitle": "PowerShell",
+                "startingDirectory": "%USERPROFILE%",
+                "colorScheme": "Your-Scheme-Name",
+                "hidden": false
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "tabTitle": "CMD",
+                "startingDirectory": "%USERPROFILE%",
+                "colorScheme": "Your-Scheme-Name",
+                "hidden": false
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Your-Scheme-Name",
+            "background": "#000000",
+            "foreground": "#FFFFFF",
+            "black": "#000000",
+            "red": "#FF0000",
+            "green": "#00FF00",
+            "yellow": "#FFFF00",
+            "blue": "#0000FF",
+            "purple": "#FF00FF",
+            "cyan": "#00FFFF",
+            "white": "#FFFFFF",
+            "brightBlack": "#555555",
+            "brightRed": "#FF5555",
+            "brightGreen": "#55FF55",
+            "brightYellow": "#FFFF55",
+            "brightBlue": "#5555FF",
+            "brightPurple": "#FF55FF",
+            "brightCyan": "#55FFFF",
+            "brightWhite": "#FFFFFF",
+            "cursorColor": "#FFFFFF",
+            "selectionBackground": "#FFFFFF"
+        }
+    ],
+    "keybindings": [
+        {
+            "command": "copy",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "newTab",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": "closeTab",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "splitPane",
+            "keys": "alt+shift+d"
+        }
+    ]
+}
