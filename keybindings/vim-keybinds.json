@@ -1,0 +1,89 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "keybindings": [
+        {
+            "command": "copy",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "newTab",
+            "keys": "ctrl+n"
+        },
+        {
+            "command": "closeTab",
+            "keys": "ctrl+q"
+        },
+        {
+            "command": "nextTab",
+            "keys": "ctrl+l"
+        },
+        {
+            "command": "previousTab",
+            "keys": "ctrl+h"
+        },
+        {
+            "command": "splitPane",
+            "keys": "alt+shift+v"
+        },
+        {
+            "command": "moveFocusLeft",
+            "keys": "alt+h"
+        },
+        {
+            "command": "moveFocusRight",
+            "keys": "alt+l"
+        },
+        {
+            "command": "moveFocusUp",
+            "keys": "alt+k"
+        },
+        {
+            "command": "moveFocusDown",
+            "keys": "alt+j"
+        },
+        {
+            "command": "resizePane",
+            "keys": "alt+shift+h",
+            "args": {
+                "direction": "left"
+            }
+        },
+        {
+            "command": "resizePane",
+            "keys": "alt+shift+l",
+            "args": {
+                "direction": "right"
+            }
+        },
+        {
+            "command": "resizePane",
+            "keys": "alt+shift+k",
+            "args": {
+                "direction": "up"
+            }
+        },
+        {
+            "command": "resizePane",
+            "keys": "alt+shift+j",
+            "args": {
+                "direction": "down"
+            }
+        },
+        {
+            "command": "switchToTab",
+            "keys": "ctrl+1"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "ctrl+2"
+        },
+        {
+            "command": "switchToTab",
+            "keys": "ctrl+3"
+        }
+    ]
+}
