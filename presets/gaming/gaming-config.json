@@ -1,0 +1,62 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "Cascadia Code Nerd Font",
+                "size": 13
+            },
+            "cursorShape": "bar",
+            "padding": "10, 10, 10, 10",
+            "opacity": 100,
+            "useAcrylic": false,
+            "colorScheme": "Cyberpunk"
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt"
+            }
+        ]
+    },
+    "keybindings": [
+        {"command": "copy", "keys": "ctrl+c"},
+        {"command": "paste", "keys": "ctrl+v"},
+        {"command": "newTab", "keys": "ctrl+t"},
+        {"command": "closeTab", "keys": "ctrl+w"},
+        {"command": "splitPane", "keys": "alt+shift+d"},
+        {"command": "toggleFullscreen", "keys": "f11"}
+    ],
+    "schemes": [
+        {
+            "name": "Cyberpunk",
+            "background": "#0D0221",
+            "black": "#222222",
+            "blue": "#00D9FF",
+            "brightBlack": "#333333",
+            "brightBlue": "#00D9FF",
+            "brightCyan": "#00FFC3",
+            "brightGreen": "#00D084",
+            "brightPurple": "#FF006E",
+            "brightRed": "#FF006E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFB700",
+            "cursorColor": "#FF006E",
+            "cyan": "#00FFC3",
+            "foreground": "#CCCCCC",
+            "green": "#00D084",
+            "purple": "#FF006E",
+            "red": "#FF006E",
+            "selectionBackground": "#444444",
+            "white": "#FFFFFF",
+            "yellow": "#FFB700"
+        }
+    ]
+}
