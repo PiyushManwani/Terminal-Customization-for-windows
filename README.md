@@ -33,7 +33,7 @@ terminal-windows-customization/
 1. Clone the repository:
 
    ```powershell
-   git clone https://github.com/Piyush-manwani/terminal-windows-customization.git
+   git clone https://github.com/PiyushManwani/terminal-windows-customization.git
    cd terminal-windows-customization
    ```
 
